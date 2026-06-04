@@ -1,0 +1,32 @@
+EMPLOYEE HANDBOOK - SYNTHETIC DEMO DOCUMENT (not a real employer policy)
+Used for portfolio demos only. Replace with your own files under data/raw/ for production use.
+
+EMPLOYEE HANDBOOK - SAMPLE POLICY DOCUMENT
+
+SECTION 1: EMPLOYEE BENEFITS
+
+All full-time employees are eligible for health insurance, dental coverage, and vision plans
+after 30 days of employment. The company contributes 80% of premium costs for employee coverage.
+
+Paid time off includes 15 vacation days per year, 10 sick days, and recognized public holidays.
+Employees may also participate in a 401(k) retirement plan with company matching up to 4% of salary.
+
+SECTION 2: WORKING CONDITIONS
+
+The company is committed to a safe and healthy workplace. Flexible working arrangements,
+including remote work up to two days per week, may be approved by department managers.
+
+Professional development opportunities include annual training budgets and tuition reimbursement
+for job-related courses up to $2,500 per year.
+
+SECTION 3: CODE OF CONDUCT
+
+Employees must follow all company policies regarding confidentiality, anti-harassment,
+and equal opportunity employment. Violations may result in disciplinary action up to termination.
+
+SECTION 4: LEAVE POLICY
+
+Parental leave of up to 12 weeks is available for eligible employees. Bereavement leave
+of up to 5 days is granted for immediate family members.
+
+For questions about benefits or HR policies, contact the Human Resources department at hr@company.example.

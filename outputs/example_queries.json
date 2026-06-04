@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are employee benefits?",
+    "expected_topics": ["health insurance", "401(k)", "paid time off"]
+  },
+  {
+    "question": "How many vacation days do employees receive?",
+    "expected_topics": ["15 vacation days"]
+  },
+  {
+    "question": "Is remote work allowed?",
+    "expected_topics": ["flexible working", "remote work", "two days per week"]
+  }
+]

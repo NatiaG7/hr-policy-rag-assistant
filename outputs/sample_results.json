@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "status": "illustrative",
+    "description": "Expected retrieval summaries aligned with data/sample/employee_handbook_sample.txt. Regenerate after building the index.",
+    "regenerate_command": "python scripts/build_index.py && python scripts/run_examples.py"
+  },
+  "results": [
+    {
+      "question": "What are employee benefits?",
+      "expected_topics": ["health insurance", "401(k)", "paid time off"],
+      "chunks_used": null,
+      "mode": "illustrative",
+      "sources_preview": "All full-time employees are eligible for health insurance, dental coverage, and vision plans after 30 days of employment. The company contributes 80% of premium costs for employee coverage. Paid time off includes 15 vacation days per year, 10 sick days, and recognized public holidays. Employees may also participate in a 401(k) retirement plan with company matching up to 4% of salary."
+    },
+    {
+      "question": "How many vacation days do employees receive?",
+      "expected_topics": ["15 vacation days"],
+      "chunks_used": null,
+      "mode": "illustrative",
+      "sources_preview": "Paid time off includes 15 vacation days per year, 10 sick days, and recognized public holidays."
+    },
+    {
+      "question": "Is remote work allowed?",
+      "expected_topics": ["flexible working", "remote work", "two days per week"],
+      "chunks_used": null,
+      "mode": "illustrative",
+      "sources_preview": "Flexible working arrangements, including remote work up to two days per week, may be approved by department managers."
+    }
+  ]
+}

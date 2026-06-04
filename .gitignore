@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/*.pdf
+!data/sample/**
+
+# Vector DB & model caches
+outputs/chroma_db/
+outputs/last_query.json
+models/
+.cache/
+huggingface/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
