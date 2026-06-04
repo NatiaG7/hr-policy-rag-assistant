@@ -3,18 +3,61 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Secrets (never commit)
 .env
-.env.local
+.env.*
+!.env.example
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/raw/
-data/*.pdf
-!data/sample/**
+# -----------------------------------------------------------------------------
+# Documents — global deny (no PDFs anywhere in the repo)
+# -----------------------------------------------------------------------------
+*.pdf
+**/*.pdf
 
-# Vector DB & model caches
+# Other common HR / policy formats that may be private
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.odt
+*.rtf
+*.pages
+*.epub
+
+# Archives that often bundle policy packs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# -----------------------------------------------------------------------------
+# data/ — deny-by-default; whitelist only safe, public files
+# -----------------------------------------------------------------------------
+data/*
+!data/README.md
+!data/sample/
+!data/raw/
+
+# Local/private ingest (PDFs, downloads, custom text) — never commit
+data/raw/*
+!data/raw/.gitkeep
+
+# Sample folder: only the synthetic handbook text is allowed in git
+data/sample/*
+!data/sample/employee_handbook_sample.txt
+!data/sample/.gitkeep
+
+# -----------------------------------------------------------------------------
+# Vector DB, models, caches
+# -----------------------------------------------------------------------------
 outputs/chroma_db/
 outputs/last_query.json
 models/
@@ -25,3 +68,13 @@ huggingface/
 .DS_Store
 .vscode/
 .idea/
+
+# Misc sensitive filenames (if dropped in repo root by mistake)
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*.sqlite
+*.db
